@@ -137,8 +137,7 @@ env.bak/
 venv.bak/
 mlenv/
 .mlenv
-mlenv
-artifacts
+artifacts/
 
 # Spyder project settings
 .spyderproject
