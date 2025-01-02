@@ -65,7 +65,7 @@ http://127.0.0.1:5000
 
 ## Requirements
 
-This project uses python 2.12.8.
+This project uses python 3.12.8.
 
 To install the required libraries, run:
 
