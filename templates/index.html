@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Student Exam Performance Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f4f7fc;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #2d3e50;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #6c757d;
+        }
+        .btn-custom {
+            padding: 12px 30px;
+            font-size: 18px;
+            text-transform: uppercase;
+            border-radius: 30px;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Welcome to the Student Exam Performance Predictor</h1>
+        <p>Our platform allows you to predict exam performance based on student data.</p>
+        
+        <div class="mt-4">
+            <a href="{{ url_for('predict_datapoint') }}" class="btn btn-custom btn-primary">Go to Prediction Form</a>
+        </div>
+    </div>
+</body>
+</html>
